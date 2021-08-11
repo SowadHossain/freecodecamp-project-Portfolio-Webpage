@@ -14,8 +14,29 @@ body{
   top: 0;
   left: 0;
   width: 100%;
+  height: 80px;
   z-index: 10;
-  }
+  background-color: hsl(352deg 59% 47%);
+}
+
+#navbar ul{
+  display: flex;
+  align-items: center;
+  padding-right: 40px;
+}
+
+#navbar ul li{
+  list-style: none;
+  padding: 10px;
+}
+
+#navbar ul li a{
+  text-decoration: none;
+  color:aliceblue;
+  font-size: 25px;
+  font-weight: 450;
+}
+
   
 #welcome-section{
   display: block;
@@ -24,21 +45,29 @@ body{
   background:#CCC;
 }
 
-#welcome-section name{
-    padding:auto auto;
-  
-
+#welcome-section #name{
+  text-align: center;
+  padding-top: 30vh;
+  padding-bottom: 70vh;
+  background-color: hsl(0deg 0% 16%);
+  color: aliceblue;
+  font-size: 70px;
 }
+
 #projects img{
   width: 30%;
   height: auto;
 }
+
 #projects a{
   width: 200px;
 }
+
 #projects{
   display: grid;
+  background-color: hsl(222deg 29% 38%);
 }
+
 @media (max-width:400px) {
     
 }
